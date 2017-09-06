@@ -7,3 +7,7 @@ export function square(x) {
 export function diag(x, y) {
     return sqrt(square(x) + square(y));
 }
+
+export const render = (el) => {
+    el.innerText = "WebModules work!";
+}

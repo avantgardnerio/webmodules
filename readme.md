@@ -10,6 +10,8 @@ http-server .
 open index.html    # chrome 61+
 ```
 
+***If you make changes, be sure to `empty cache and hard reload`***
+
 ## References
 
 * http://2ality.com/2014/09/es6-modules-final.html
