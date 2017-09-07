@@ -1,5 +1,6 @@
-// Create a class for the element
-export default class XProduct extends HTMLElement {
+import XUserLink from './Userlink.js';
+
+export default class XUserList extends HTMLElement {
     constructor() {
         super();
 
@@ -18,4 +19,4 @@ export default class XProduct extends HTMLElement {
 }
 
 // Define the new element
-customElements.define('x-product', XProduct);
+customElements.define('x-user-list', XUserList);
